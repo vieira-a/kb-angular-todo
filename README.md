@@ -1,27 +1,48 @@
-# TodoAngular
+<p align="center">
+  <a href="https://angular.io/" target="blank"><img src="https://angular.io/assets/images/logos/angular/angular.svg" width="200" alt="Angular Logo" /></a>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
+<p align="center">Learning <a href="https://angular.io" target="_blank">Angular</a>, the web development framework for building the future.</p>
 
-## Development server
+## Wellcome to my project
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This is a small project that contains the basic principles of the Angular framework; a basic C.R.U.D. manipulation for a Task Manager (the famous TODO App). I hope you enjoy it!
 
-## Code scaffolding
+### How to use
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### Requeriments
 
-## Build
+- Ensure that you have [Node.js](https://nodejs.org/en) installed on your system.
+- Ensure that you have my [Backend API](https://github.com/vieira-a/kb-nest-todo) to support this application.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+**Steps**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### [Click here to get all the instructions to execute the API](https://github.com/vieira-a/kb-nest-todo)
 
-## Running end-to-end tests
+**1 - Clone the repository**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+git clone https://github.com/vieira-a/kb-angular-todo.git
+```
 
-## Further help
+**2 - Enter in the project folder**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+cd kb-angular-todo
+```
+
+**Project structure**
+
+**3 - Install dependencies**
+```
+npm install
+```
+
+**Start application**
+```
+ng serve
+```
+Server started at `http://localhost:4200`
+
+Made by [Anderson Vieira](https://linkedin/in/vieira-a)

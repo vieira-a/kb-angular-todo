@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  background-color: #292524;
+  font-family: 'Raleway', sans-serif;
+  color: #e7e5e4;
+  line-height: 150%;
+}
+
+main {
+  margin: 2em;
+}
+
+button {
+  border: 0;
+  background: inherit;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.title {
+  color: #60a5fa;
+}

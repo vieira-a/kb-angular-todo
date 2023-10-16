@@ -1,0 +1,22 @@
+nav {
+  padding: 1em;
+  background-color: #1c1917;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.primary {
+  padding: .5em 1em;
+  background-color: #60a5fa;
+  color: #1c1917;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: .8em;
+  font-weight: 600;
+}
+
+.actions {
+  display: flex;
+  gap: .5em;
+}

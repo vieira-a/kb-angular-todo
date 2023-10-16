@@ -1,0 +1,41 @@
+.task-item {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+  padding-block: 1em;
+}
+
+.task-header {
+  display: flex;
+  gap: .5em;
+  align-items: center;
+}
+
+.task-status {
+  font-size: .8em;
+  font-weight: bold;
+}
+
+.open {
+  color: #84cc16;
+}
+
+.doing {
+  color: #fbbf24;
+}
+
+.done {
+  color: #60a5fa;
+}
+
+.error-info {
+  text-align: center;
+  margin-block: 2em;
+  padding: .5em;
+  background-color: #b91c1c50;
+  border-radius: 4px;
+}
+
+.error {
+  font-size: .8em;
+}

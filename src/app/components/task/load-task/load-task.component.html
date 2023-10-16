@@ -1,0 +1,15 @@
+<section>
+  <h2>my<b class="title">tasks</b></h2>
+  <ul class="task-list" *ngFor="let tasks of taskList">
+    <li class="task-item">
+      <div class="task-header">
+        <p [ngClass]="{'open': tasks.status === 'open', 'doing': tasks.status === 'doing', 'done': tasks.status === 'done'}" class="task-status">{{tasks.status}}</p>
+        <h4 class="task-title">{{tasks.title}}</h4>
+      </div>
+      <p>{{tasks.description}}</p>
+    </li>
+  </ul>
+  <div class="error-info" *ngIf="error">
+    <p class="error">{{error}}</p>
+  </div>
+</section>
